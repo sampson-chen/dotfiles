@@ -48,4 +48,14 @@ set pastetoggle=<F2>
 " Reverse of 'J' - this splits a line into two
 :nnoremap K i<CR><Esc>
 
+" Border at 80 char
+set cc=80
+
+set cursorline
+set incsearch
+set list
+set listchars=tab:▸\ ,trail:▫
+set ruler
+set smartindent
+
 " === End slchen's settings ===
