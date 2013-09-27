@@ -119,5 +119,8 @@ fi
 # fixes solarized coloring in vim while using tmux:
 alias tmux="TERM=screen-256color-bce tmux"
 
+# Other useful aliases
+source .aliasrc
+
 # Use vim as default editor
 export EDITOR=vim
