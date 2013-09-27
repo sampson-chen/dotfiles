@@ -1,3 +1,5 @@
 #!/bin/bash
 
 alias sl=ls
+alias rbenv="source ~/envs/reviewboard/bin/activate"
+alias rbserv="cd ~/src/reviewboard; ./contrib/internal/devserver.py"
