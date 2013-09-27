@@ -120,7 +120,10 @@ fi
 alias tmux="TERM=screen-256color-bce tmux"
 
 # Other useful aliases
-source .aliasrc
+source ~/dotfiles/.aliasrc
 
 # Use vim as default editor
 export EDITOR=vim
+
+# Disable touchpad on laptop
+source ~/dotfiles/scripts/disable_touchpad.sh
