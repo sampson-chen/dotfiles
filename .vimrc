@@ -57,5 +57,11 @@ set list
 set listchars=tab:▸\ ,trail:▫
 set ruler
 set smartindent
+set title
+
+" cabbrev shortcuts
+ca tn tabnew
+ca th tabp
+ca tl tabn
 
 " === End slchen's settings ===
