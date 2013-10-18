@@ -59,9 +59,14 @@ set ruler
 set smartindent
 set title
 
+" Vim tabs
 " cabbrev shortcuts
 ca tn tabnew
 ca th tabp
 ca tl tabn
+" Ctrl key shortcuts
+map <C-h> gT<CR>
+map <C-l> gt<CR>
+map <C-n> :tabnew<CR>
 
 " === End slchen's settings ===
