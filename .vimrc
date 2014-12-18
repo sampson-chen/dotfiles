@@ -69,4 +69,7 @@ map <C-h> gT<CR>
 map <C-l> gt<CR>
 map <C-n> :tabnew<CR>
 
+" Max number of tabs to open at once with -p option
+set tabpagemax=100
+
 " === End slchen's settings ===

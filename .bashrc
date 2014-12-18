@@ -112,18 +112,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-
-# slchen's custom stuff:
-
-# fixes solarized coloring in vim while using tmux:
-alias tmux="TERM=screen-256color-bce tmux"
-
-# Other useful aliases
-source ~/dotfiles/.aliasrc
-
-# Use vim as default editor
-export EDITOR=vim
-
-# Disable touchpad on laptop
-source ~/dotfiles/scripts/disable_touchpad.sh
