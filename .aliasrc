@@ -3,3 +3,5 @@
 alias sl=ls
 alias vp="vim -p"
 alias p=python
+alias ali="vim ~/dotfiles/.aliasrc"
+alias res="source ~/dotfiles/.aliasrc"
